@@ -6,5 +6,27 @@
 }
 
 img header{
-    width:1920px;
+    width:1000px;
+    height:200px;
+}
+
+#secao{
+    width:1000px;
+    height:800px;
+    display:flex.
+}
+
+#content{
+    width:1000px;
+    height:800px;
+}
+
+#miolo {
+    width:1000px;
+    height:800px;
+}
+
+#lado{
+    width:1000px;
+    height:800px;
 }
