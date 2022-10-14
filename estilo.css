@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
+#body{
     background-color:black;
+}
+
+img header{
+    width:1920px;
 }
