@@ -6,9 +6,22 @@
     background-color:black;
 }
 
-img header{
+#banner{
     width:1350px;
     height:200px;
+    background-image:"imgs/banner.jpg";
+}
+
+#centro{
+    width:1350px;
+    padding-top:-200px;
+    margin:auto;
+    overflow:hidden;
+}
+
+.centro{
+    padding-top:-200px; 
+    margin:auto;
 }
 
 #main{
