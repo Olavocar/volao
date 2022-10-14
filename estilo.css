@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-#body{
+#bg{
     background-color:black;
 }
 
@@ -10,23 +10,35 @@ img header{
     height:200px;
 }
 
+#main{
+    width:1350px;
+    height:800px;
+    overflow:hidden;
+    background-color:black;
+}
+
 #secao{
-    width:1000px;
+    width:1350px;
     height:800px;
     display:flex.
+    background-color:black;
 }
 
 #content{
-    width:1000px;
+    width:25%;
     height:800px;
+    color:white;
+    background-color:black;
 }
 
 #miolo {
-    width:1000px;
+    width:50%;
     height:800px;
+    background-color:black;
 }
 
 #lado{
-    width:1000px;
+    width:25%px;
     height:800px;
+    background-color:black;
 }
