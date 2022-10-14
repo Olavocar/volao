@@ -2,43 +2,52 @@
 /* CSS Document */
 
 #bg{
+    width:1350px;
     background-color:black;
 }
 
 img header{
-    width:1000px;
+    width:1350px;
     height:200px;
 }
 
 #main{
     width:1350px;
-    height:800px;
+    height:80%px;
     overflow:hidden;
     background-color:black;
 }
 
 #secao{
     width:1350px;
-    height:800px;
+    height:80%;
     display:flex.
     background-color:black;
 }
 
 #content{
     width:25%;
-    height:800px;
+    height:80%;
     color:white;
     background-color:black;
 }
 
 #miolo {
     width:50%;
-    height:800px;
+    height:80%;
+    color:white;
     background-color:black;
 }
 
 #lado{
     width:25%px;
-    height:800px;
+    height:80%;
+    color:white;
+    background-color:black;
+}
+
+#rodape{
+    width:100%;
+    color:white;
     background-color:black;
 }
