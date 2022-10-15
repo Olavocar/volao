@@ -4,6 +4,7 @@
 #bg{
     width:1350px;
 	height:auto;
+	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
 }
 
@@ -29,6 +30,7 @@
     width:1350px;
     height:365px;
     overflow:hidden;
+	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
 }
 
@@ -36,6 +38,7 @@
     width:1350px;
     height:100%;
     display:flex;
+	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
 }
 
@@ -43,7 +46,8 @@
     width:25%;
     height:100%;
     color:white;
-    float:left;    
+    float:left;
+	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
 }
 
@@ -52,12 +56,14 @@
     height:100%;
     color:white;
     float:left;
+	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
 }
 
 #lado{
     width:25%px;
     height:100%;
+	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     color:white;
     background-color:black;
 }
