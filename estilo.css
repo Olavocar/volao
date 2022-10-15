@@ -3,27 +3,27 @@
 
 #bg{
     width:1350px;
-	height:auto;
+	height:200px;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
-    background-color:black;
 }
 
 #banner{
     width:1350px;
     height:200px;
-	overflow:hidden;
-    background-image:"imgs/banner.jpg";
+	background-image:"imgs/banner.jpg";
 }
 
 #centro{
-    width:1350px;
+    width:100%;
     padding-top:-100px;
     margin:auto;
 }
 
-.centro{
-    padding-top:-100px; 
-    margin:auto;
+.central{
+	width:344px;
+	height:221px;
+    padding-top:-100px;
+	margin:auto;
 }
 
 #main{
@@ -51,11 +51,16 @@
     background-color:black;
 }
 
+#bio{
+	font-size:20px;
+}
+
 #miolo {
     width:50%;
     height:100%;
     color:white;
     float:left;
+	margin-top:25px;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
 }
