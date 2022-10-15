@@ -3,24 +3,25 @@
 
 #bg{
     width:1350px;
+	height:auto;
     background-color:black;
 }
 
 #banner{
     width:1350px;
     height:200px;
+	overflow:hidden;
     background-image:"imgs/banner.jpg";
 }
 
 #centro{
     width:1350px;
-    padding-top:-200px;
+    padding-top:-100px;
     margin:auto;
-    overflow:hidden;
 }
 
 .centro{
-    padding-top:-200px; 
+    padding-top:-100px; 
     margin:auto;
 }
 
@@ -34,7 +35,7 @@
 #secao{
     width:1350px;
     height:100%;
-    display:flex.
+    display:flex;
     background-color:black;
 }
 
