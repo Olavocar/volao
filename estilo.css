@@ -1,41 +1,52 @@
 @charset "utf-8";
 /* CSS Document */
 
+.cabecalho {
+
+    background-image: url("imgs/banner.jpg");
+    display: flex;
+    
+}
+
+.logovolao {
+    align-items: center;
+    margin: auto;
+    
+}
+
 #bg{
-    width:1350px;
-	height:200px;
+    width:1590px;
+	height:100%;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
 }
 
-#banner{
-    width:1350px;
-    height:200px;
-	background-image:"imgs/banner.jpg";
-}
 
 #centro{
-    width:100%;
-    padding-top:-100px;
+    width:1590px;
+    padding-top:-1000px;
+    justify-content:center;
+    align-items:center;
     margin:auto;
 }
 
 .central{
 	width:344px;
 	height:221px;
-    padding-top:-100px;
+    padding-top:-1000px;
 	margin:auto;
 }
 
 #main{
-    width:1350px;
+    width:1590px;
     height:365px;
     overflow:hidden;
+    padding-top:-1000px;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
 }
 
 #secao{
-    width:1350px;
+    width:1590px;
     height:100%;
     display:flex;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
@@ -43,7 +54,7 @@
 }
 
 #content{
-    width:25%;
+    width:1590px;
     height:100%;
     color:white;
     float:left;
@@ -55,26 +66,52 @@
 	font-size:20px;
 }
 
+#corpo {
+    width: 100%;
+    height: 80%;
+}
+
+#banner{
+    width:1590px;
+    height:200px;
+  
+}
+
 #miolo {
-    width:50%;
+    width:1590px;
     height:100%;
     color:white;
     float:left;
-	margin-top:25px;
+	margin-top:10px;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
 }
 
 #lado{
-    width:25%px;
+    width:1590px;
     height:100%;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     color:white;
     background-color:black;
 }
 
+#nav {
+    display:flex;
+    float:right;
+    margin-right:100px;
+}
+
+#botoes{
+    width:500px;
+    height:100px;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+}
+
 #rodape{
-    width:100%;
+    width:1590px;
     height:20%;
     color:white;
     background-color:black;
