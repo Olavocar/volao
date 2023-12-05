@@ -3,32 +3,32 @@
 
 #bg{
     width:920px;
-	height:200px;
+	height:100%;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
 }
 
 #banner{
     width:920px;
     height:200px;
-	background-image:"imgs/banner.jpg";
+	background-image: ("imgs/banner.jpg");
 }
 
 #centro{
-    width:100%;
+    width:920px;
     padding-top:-10px;
     margin:auto;
 }
 
 .central{
 	width:344px;
-	height:221px;
-    padding-top:-100px;
+	height:100%;
+    padding-top:-10px;
 	margin:auto;
 }
 
 #main{
     width:920px;
-    height:365px;
+    height:355px;
     overflow:hidden;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
@@ -43,7 +43,7 @@
 }
 
 #content{
-    width:25%;
+    width:920px;
     height:100%;
     color:white;
     float:left;
@@ -56,7 +56,7 @@
 }
 
 #miolo {
-    width:50%;
+    width:920px;
     height:100%;
     color:white;
     float:left;
@@ -66,7 +66,7 @@
 }
 
 #lado{
-    width:25%px;
+    width:300px;
     height:100%;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     color:white;
