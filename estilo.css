@@ -2,13 +2,13 @@
 /* CSS Document */
 
 #bg{
-    width:1350px;
+    width:920px;
 	height:200px;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
 }
 
 #banner{
-    width:1350px;
+    width:920px;
     height:200px;
 	background-image:"imgs/banner.jpg";
 }
@@ -27,7 +27,7 @@
 }
 
 #main{
-    width:1350px;
+    width:920px;
     height:365px;
     overflow:hidden;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
@@ -35,7 +35,7 @@
 }
 
 #secao{
-    width:1350px;
+    width:920px;
     height:100%;
     display:flex;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
