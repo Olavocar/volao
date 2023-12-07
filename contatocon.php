@@ -1,16 +1,19 @@
 <?php
-session_start();
-include('config.php');
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    //Coleta os dados do formulário
+   $_nome = $_POST['nome'];
+   $_telefone = $_POST['telefone'];
+   $_email = $_POST['email'];
+   $_mensagem = $_POST['mensagem'];
 
-if(empty($_POST['nome']) || empty($_POST['email'])){
-   header('Location: contato.php');
-   exit(); 
 }
 
 $nome = mysqli_real_escape_string($conn, $POST['nome']);
+$telefone = mysqli_real_escape_string($conn, $POST['telefone']);
 $email = mysqli_real_escape_string($conn, $POST['email']);
+$mensagem = mysqli_real_escape_string($conn, $POST['mensagem']);
 
-$query = "select nome from email where email = '{$nome}' and senha = ('{$semail}')";
+$query = "select nome from nome where nome = '{$nome}' and telefone = '{$telefone}' and email = ('{$email}' and mensagem ='{$mensagem}')";
 
 $result = mysqli_query($conn, $query);
 
