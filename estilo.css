@@ -66,12 +66,12 @@ body{
 }
 
 #bio{
-    width: 260px;
+    width: 160px;
 	font-size:20px;
 }
 
 #miolo {
-    width:260px;
+    width:200px;
     height:100%;
     color:white;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
@@ -79,7 +79,7 @@ body{
 }
 
 #lado{
-    width:260px;
+    width:200px;
     height:100%;
     margin-left: 0px;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
