@@ -38,10 +38,9 @@ body{
 }
 
 .a{
-    width: 100px;
+    width: 100%;
     float: left;
     display: flex;
-    background-color: brown;
 }
 
 a{
