@@ -71,9 +71,9 @@ body{
 }
 
 #miolo {
-    width:200px;
+    width:440px;
     height:100%;
-    margin-left: -900px;
+    margin-left: -1000px;
     color:white;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
@@ -82,7 +82,7 @@ body{
 #lado{
     width:200px;
     height:100%;
-    margin-left: 20px;
+    margin-left: 50px;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     color:white;
     background-color:black;
