@@ -29,6 +29,10 @@ body{
     padding-top: -50px;
 }
 
+a{
+    color: white;
+}
+
 .links{
     background-color: black;
 }
