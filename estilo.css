@@ -90,6 +90,6 @@ body{
 #rodape{
     width:100%;
     height:50px;
-    color:white;
+    color:white; 
     background-image: linear-gradient(gray,black);
 }
