@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html>
 <head>
@@ -84,7 +87,32 @@
 <div id="bio"><b>Contato:</b></div>
 </article>
 <article id="miolo">
-
+    <div class="box">
+        <?php
+        if(isset($_SESSION['nao_autenticado'])):
+        ?>
+        <div class="notification is-danger">
+        <p>ERRO: Usuário ou senha inválidos.</p>
+        </div>
+        <?php
+        endif;
+        unset($_SESSION['nao_autenticado']);
+        ?>
+        <form action="contatocon.php" method="POST">
+        <p>     
+            <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Nome Completo">
+        </p>
+        <p>     
+            <label>E-mail:</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+        </p>
+        <p>
+                <button type="submit">Enviar</button>
+        </p>
+        </form>
+        </div>
+    
 <div>
     
 </div></article>
