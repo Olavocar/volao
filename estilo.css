@@ -42,7 +42,7 @@ body{
 
 #main{
     width:100%;
-    height:600px;
+    height:900px;
     overflow:hidden;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
@@ -57,7 +57,7 @@ body{
 }
 
 #content{
-    width:1320px;
+    width:880px;
     height:100%;
     color:white;
     float:left;
@@ -91,5 +91,5 @@ body{
     width:100%;
     height:50px;
     color:white;
-    background-color:black;
+    background-color:linear-gradient (gray,black);
 }
