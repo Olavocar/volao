@@ -38,6 +38,7 @@ body{
 
 .a{
     width: 100px;
+    align-items: start;
     background-color: brown;
 }
 
