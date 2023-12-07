@@ -18,11 +18,7 @@ $mensagem = mysqli_real_escape_string($conn, $POST['mensagem']);
 $sql = "INSERT INTO cadastro (nome,telefone,email,mensagem) VALUES ('$nome','$telefone','$email','$mensagem')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Dados inseridos com sucesso!"
-} else {
-    echo "Erro ao inserir dados: " . $conn->error;
-} else {
-    echo "Este arquivo não pode ser acessado diretamente.";
+    echo "Dados inseridos com sucesso!";
 }
 
 $conn->close(); //Fecha a conexão com o banco de dados
