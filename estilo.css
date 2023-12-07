@@ -1,31 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
 header{
-    width: 1270px;
+    width: 1320px;
     height: 120px;
 }
 
 body{
-    width: 1270px;
+    width: 1320px;
     height: 100%;
     margin-left: 10px;
     background-color: black;
 }
 
 #bg{
-    width: 880px;
+    width: 1320px;
 	height:100px;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
 }
 
 #banner{
-    width: 1270px;
+    width: 1320px;
     height:120px;
 	background-image: url("imgs/banner.jpg");
 }
 
 #centro{
-    width:880px;
+    width:1320px;
     padding-top: -50px;
 }
 
@@ -57,7 +57,7 @@ body{
 }
 
 #content{
-    width:880px;
+    width:1320px;
     height:100%;
     color:white;
     float:left;
@@ -88,7 +88,7 @@ body{
 }
 
 #rodape{
-    width:880px;
+    width:1320px;
     height:50px;
     color:white; 
     background-image: linear-gradient(gray,black);
