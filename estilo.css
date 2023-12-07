@@ -32,13 +32,14 @@ body{
 .botoes{
     width: 1330px;
     height: 100%;
+    margin:auto;
     font-size: 12px;
     font-family: "Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
 }
 
 .a{
     width: 100px;
-    align-items: start;
+    margin-left: auto;
     background-color: brown;
 }
 
