@@ -29,6 +29,13 @@ body{
     padding-top: -50px;
 }
 
+#menu{
+    width: 1330px;
+    height: 100%;
+    font-size: 12px;
+    font-family: "Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
+}
+
 .a{
     width: 100px;
     background-color: brown;
