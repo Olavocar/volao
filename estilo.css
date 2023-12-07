@@ -39,14 +39,14 @@ body{
 
 .a{
     width: 100px;
-    margin-left: auto;
     float: left;
+    display: flex;
     background-color: brown;
 }
 
 a{
     font-size: large;
-    font-style: bold;
+    font-style: normal;
     color: white;
 }
 
