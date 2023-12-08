@@ -82,7 +82,34 @@
                 <br>
 <main id="main">
 <div class="bio"><b>Cadastro:</b></div>
-
+<form action="cadastro.php" method="POST" autocomplete="">
+                <h2 class="text-center">Cadastro</h2>
+                    <p class="text-center">É rápido e fácil.</p>
+                    <?php
+                    if(count($errors) == 1){
+                        ?>
+                        <div class="alert alert-danger text-center">
+                            <?php
+                            foreach($errors as $showerror){
+                                echo $showerror;
+                            }
+                            ?>
+                        </div>
+                        <?php
+                    }elseif(count($errors) > 1){
+                        ?>
+                        <div class="alert alert-danger">
+                            <?php
+                            foreach($errors as $showerror){
+                                ?>
+                                <li><?php echo $showerror; ?></li>
+                                <?php
+                            }
+                            ?>
+                        </div>
+                        <?php
+                    }
+                    ?>
 <div class="form-group">
                         <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required value="<?php echo $nome ?>">
                     </div>
