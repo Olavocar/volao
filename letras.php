@@ -13,7 +13,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="estilo.css" rel="stylesheet">
-<title>Vídeos</title>
+<title>Letras de Músicas:</title>
 </head>
 
 <body id="bg">
@@ -81,12 +81,12 @@
                 <br>
 <main id="main"><section id="secao">
 <article id="content">
-<div id="bio"><b>Vídeos:</b></div>
+<div id="bio"><b>Letras de Músicas:</b></div>
 </article>
 <article id="miolo">
 
 <div>
-    
+    Novidades:
 </div></article>
 <article id="lado">
    
