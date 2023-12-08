@@ -1,6 +1,5 @@
 <?php
-session_start();
-include_once("config.php");
+require_once "controlleruserdata.php";
 ?>
 <!doctype html>
 <html>
@@ -90,7 +89,7 @@ include_once("config.php");
 <article id="miolo">
     <div class="box">
        
-        <form action="contatocon.php" method="POST">
+        <form action="contato.php" method="POST">
         <p>     
             <label>Nome:</label>
                 <input type="text" name="nome" placeholder="Nome Completo">

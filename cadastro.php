@@ -88,7 +88,7 @@
                             <input type="text" name="nome" placeholder="Digite seu nome" required value="<?php echo $nome ?>">
                         </div>
 
-                <form action="controlleruserdata.php" method="POST" autocomplete="">
+                <form action="cadastro.php" method="POST" autocomplete="">
                         <p>É rápido e fácil.</p>
                         <?php
                         if(count($errors) == 1){
