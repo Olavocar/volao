@@ -6,7 +6,7 @@
 
     $con = mysqli_connect($dbHost,$dbUsername,$dbPassword,$dbname) or die ('Erro de conexão');
 
-    if($->connect_errno)
+    if($con->connect_errno)
     {
         echo "Errou em alguma parada";
     }
