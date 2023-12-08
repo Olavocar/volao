@@ -88,8 +88,7 @@
 <article id="miolo">
 
                 <form action="cadastro.php" method="POST" autocomplete="">
-                    <h2 class="text-center">Cadastro</h2>
-                        <p class="text-center">É rápido e fácil.</p>
+                        <p>É rápido e fácil.</p>
                         <?php
                         if(count($errors) == 1){
                             ?>
