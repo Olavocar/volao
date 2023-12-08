@@ -13,7 +13,7 @@ $mensagem = filter_input(INPUT_POST, 'mensagem');
 $result_usuario = "INSERT INTO contato (nome, telefone, email, mensagem) VALUES ('$nome', '$telefone', '$email', '$mensagem')";
 $resultado_usuario = mysqli_query($con, $result_usuario);
 
-if(mysqli_insert_id($conn)){
+if(mysqli_insert_id($con)){
 	$_SESSION['msg'] = "<p style='color:green;'>Usuário cadastrado com sucesso</p>";
 	header("Location: contato.html");
 }else{
