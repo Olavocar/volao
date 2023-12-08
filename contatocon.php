@@ -1,35 +1,22 @@
 <?php
-include'config.php';
+session_start();
+include_once("config.php");
 
-{
+$nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
+$telefone = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_INT);
+$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+$mensagem = filter_input(INPUT_POST, 'mensagem', FILTER_SANITIZE_TEXT);
 
-if($_SERVER["REQUEST_METHOD"] == "POST") {
-    //Coleta os dados do formulário
-   $_nome = $_POST['nome'];
-   $_telefone = $_POST['telefone'];
-   $_email = $_POST['email'];
-   $_mensagem = $_POST['mensagem'];
+//echo "Nome: $nome <br>";
+//echo "E-mail: $email <br>";
 
+$result_usuario = "INSERT INTO cadastro (nome, telefone, email, mensagem) VALUES ('$nome', '$telefone', '$email', '$mensagem', NOW())";
+$resultado_usuario = mysqli_query($conn, $result_usuario);
+
+if(mysqli_insert_id($conn)){
+	$_SESSION['msg'] = "<p style='color:green;'>Usuário cadastrado com sucesso</p>";
+	header("Location: contato.html");
+}else{
+	$_SESSION['msg'] = "<p style='color:red;'>Usuário não foi cadastrado com sucesso</p>";
+	header("Location: contato.html");
 }
-
-$nome = mysqli_real_escape_string($conn, $POST['nome']);
-$telefone = mysqli_real_escape_string($conn, $POST['telefone']);
-$email = mysqli_real_escape_string($conn, $POST['email']);
-$mensagem = mysqli_real_escape_string($conn, $POST['mensagem']);
-
-$stmt = $conn->prepare("INSERT INTO cadastro (nome, telefone, email, mensagem) VALUES ('$nome','$telefone','$email','$mensagem')");
-$stmt->bind_param('ssss', $nome, $telefone, $email, $mensagem);
-
-if ($stmt->execute()) {
-    echo "Dados inseridos com sucesso!";
-} else {
-    echo "Erro ao inserir dados: " . $conn->error;
-}
-
-$stmt->close(); //Fecha a conexão com o banco de dados
-
-}
-
-$conn->close();
-
-?>
