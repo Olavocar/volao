@@ -114,7 +114,7 @@ if($email != false && $senha != false){
 <article id="miolo">
     <div class="box">
        
-        <form action="contato.php" method="POST">
+        <form action="contatocon.php" method="POST">
         <p>     
             <label>Nome:</label>
                 <input type="text" name="nome" placeholder="Nome Completo">
