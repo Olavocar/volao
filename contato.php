@@ -72,10 +72,10 @@ include_once("config.php");
                                 <a href="novidades.html"><b>Novidades</b></a>
                             </td>
                             <td>
-                                <a href="cadastro.html"><b>Cadastro</b></a>
+                                <a href="cadastro.php"><b>Cadastro</b></a>
                             </td>
                             <td>
-                                <a href="contato.html"><b>Contato</b></a>
+                                <a href="contato.php"><b>Contato</b></a>
                             </td>
                         </table>
                     </div>
