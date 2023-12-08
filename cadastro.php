@@ -87,10 +87,7 @@
 </article>
 <article id="miolo">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 offset-md-4 form">
-                    <form action="cadastro.php" method="POST" autocomplete="">
+                <form action="cadastro.php" method="POST" autocomplete="">
                     <h2 class="text-center">Cadastro</h2>
                         <p class="text-center">É rápido e fácil.</p>
                         <?php
@@ -176,9 +173,6 @@
                         </div>
                         <div class="link login-link text-center">Já é inscrito? <a href="login-user.php">Entre aqui</a></div>
                     </form>
-                </div>
-            </div>
-        </div>
         
     </body>
     </html>

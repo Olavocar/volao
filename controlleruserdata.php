@@ -38,7 +38,7 @@ $data_check = mysqli_query($con, $insert_data);
 if($data_check){
     $subject = "Código de verificação por email";
     $message = "Seu código de verificação é $code";
-    $sender = "From: daarearjcadastro@gmail.com";
+    $sender = "From: olavocarnovo@gmail.com";
     if(mail($email, $subject, $message, $sender)){
         $info = "Enviamos um código de verificação para o seu email - $email";
         $_SESSION['info'] = $info;
@@ -71,7 +71,7 @@ if($data_check){
             if($update_res){
                 $_SESSION['nome'] = $nome;
                 $_SESSION['email'] = $email;
-                header('location: home.php');
+                header('location: blog.php');
                 exit();
             }else{
                 $errors['otp-error'] = "Falha ao atualizar código!";
@@ -95,7 +95,7 @@ if($data_check){
                 if($status == 'verified'){
                   $_SESSION['email'] = $email;
                   $_SESSION['senha'] = $senha;
-                    header('location: home.php');
+                    header('location: blog.php');
                 }else{
                     $info = "It's look like you haven't still verify your email - $email";
                     $_SESSION['info'] = $info;
@@ -120,7 +120,7 @@ if($data_check){
             if($run_query){
                 $subject = "Código de redefinição de senha";
                 $message = "Seu código de redefinição de senha é $code";
-                $sender = "From: daarearjcadastro@gmail.com";
+                $sender = "From: olavocarnovo@gmail.com";
                 if(mail($email, $subject, $message, $sender)){
                     $info = "Enviamos um código de redefinição de senha para o seu email - $email";
                     $_SESSION['info'] = $info;
