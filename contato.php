@@ -1,6 +1,3 @@
-<?php
-require_once "controlleruserdata.php";
-?>
 <!doctype html>
 <html>
 <head>
@@ -22,6 +19,34 @@ require_once "controlleruserdata.php";
 <body id="bg">
 <header  id="banner">
 </header>
+<?php require_once "controllerUserData.php"; ?>
+<?php 
+$email = $_SESSION['email'];
+$senha = $_SESSION['senha'];
+if($email != false && $senha != false){
+    $sql = "SELECT * FROM cadastro WHERE email = '$email'";
+    $run_Sql = mysqli_query($con, $sql);
+    if($run_Sql){
+        $fetch_info = mysqli_fetch_assoc($run_Sql);
+        $status = $fetch_info['status'];
+        $code = $fetch_info['code'];
+        if($status == "verified"){
+            if($code != 0){
+                header('Location: reset-code.php');
+            }
+        }else{
+            header('Location: user-otp.php');
+        }
+    }
+}else{
+    header('Location: login-user.php');
+}
+?>
+<div clas="session">
+<b>Olá, <?php echo $fetch_info['nome'];?></b>
+<button type="button" class="w3-button"><a href="logout-user.php">Sair</a></button>
+</div>
+
 <table class="botoes">
     <td>
     <table class="links">
