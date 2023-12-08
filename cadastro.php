@@ -84,6 +84,9 @@
 <main id="main">
 <div class="bio"><b>Cadastro:</b></div>
 
+<div>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required value="<?php echo $nome ?>">
+                        </div>
 
                 <form action="cadastro.php" method="POST" autocomplete="">
                         <p>É rápido e fácil.</p>
