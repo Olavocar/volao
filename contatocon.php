@@ -10,7 +10,7 @@ $mensagem = filter_input(INPUT_POST, 'mensagem', FILTER_SANITIZE_TEXT);
 //echo "Nome: $nome <br>";
 //echo "E-mail: $email <br>";
 
-$result_usuario = "INSERT INTO cadastro (nome, telefone, email, mensagem) VALUES ('$nome', '$telefone', '$email', '$mensagem', NOW())";
+$result_usuario = "INSERT INTO contato (nome, telefone, email, mensagem, created) VALUES ('$nome', '$telefone', '$email', '$mensagem', NOW())";
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 if(mysqli_insert_id($conn)){
