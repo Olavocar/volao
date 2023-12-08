@@ -81,11 +81,9 @@
                     </td>
                 </table>
                 <br>
-<main id="main"><section>
-<article>
+<main id="main">
 <div class="bio"><b>Cadastro:</b></div>
-</article>
-<article>
+
 
                 <form action="cadastro.php" method="POST" autocomplete="">
                         <p>É rápido e fácil.</p>
@@ -173,8 +171,6 @@
                         <div>Já é inscrito? <a href="login-user.php">Entre aqui</a></div>
                     </form>
 
-</article>
-</section>
 </main>
 <footer id="rodape">
 Contato:<br>
