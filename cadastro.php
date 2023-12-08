@@ -173,9 +173,6 @@
                         </div>
                         <div>Já é inscrito? <a href="login-user.php">Entre aqui</a></div>
                     </form>
-        
-    </body>
-    </html>
 
 </article>
 </section>
