@@ -115,29 +115,29 @@
                             <?php
                         }
                         ?>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required value="<?php echo $nome ?>">
+                        <div>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required value="<?php echo $nome ?>">
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required value="<?php echo $sobrenome ?>">
+                        <div>
+                            <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" required value="<?php echo $sobrenome ?>">
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" type="email" name="email" placeholder="Digite seu e-mail" required value="<?php echo $email ?>">
+                        <div>
+                            <input type="email" name="email" placeholder="Digite seu e-mail" required value="<?php echo $email ?>">
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="telefone" placeholder="Telefone com DDD" required value="<?php echo $telefone ?>">
+                        <div>
+                            <input type="text" name="telefone" placeholder="Telefone com DDD" required value="<?php echo $telefone ?>">
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" type="password" name="senha" placeholder="Crie um senha" required value="<?php echo $senha ?>">
+                        <div>
+                            <input type="password" name="senha" placeholder="Crie um senha" required value="<?php echo $senha ?>">
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" type="password" name="csenha" placeholder="Confirme sua senha" required value="<?php echo $csenha ?>">
+                        <div>
+                            <input type="password" name="csenha" placeholder="Confirme sua senha" required value="<?php echo $csenha ?>">
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" type="date" name="data_nasc" required value="<?php echo $data_nasc ?>">
+                        <div>
+                            <input type="date" name="data_nasc" required value="<?php echo $data_nasc ?>">
                         </div>
-                        <div class="form-group">
-                            <select class="form-control" type="select" name="estado" placeholder="Estado" required value="<?php echo $estado ?>">
+                        <div>
+                            <select type="select" name="estado" placeholder="Estado" required value="<?php echo $estado ?>">
                                            <option value=EX>Estrangeiro</option>
                                            <option value=AC>Acre</option>
                                            <option value=AL>Alagoas</option>
@@ -168,10 +168,10 @@
                                            <option value=TO>Tocantins</option>
                             </select>
                         </div>
-                        <div class="form-group">
-                            <input class="form-control button" type="submit" name="signup" value="Enviar">
+                        <div>
+                            <input type="submit" name="signup" value="Enviar">
                         </div>
-                        <div class="link login-link text-center">Já é inscrito? <a href="login-user.php">Entre aqui</a></div>
+                        <div>Já é inscrito? <a href="login-user.php">Entre aqui</a></div>
                     </form>
         
     </body>
