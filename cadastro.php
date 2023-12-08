@@ -110,28 +110,36 @@
                         <?php
                     }
                     ?>
-<div class="form-group">
-                        <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required value="<?php echo $nome ?>">
+<div class="bio">
+                    Nome:
+                    <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required value="<?php echo $nome ?>">
                     </div>
                     <div class="form-group">
+                        Sobrenome:
                         <input class="form-control" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required value="<?php echo $sobrenome ?>">
                     </div>
                     <div class="form-group">
+                        Email:
                         <input class="form-control" type="email" name="email" placeholder="Digite seu e-mail" required value="<?php echo $email ?>">
                     </div>
                     <div class="form-group">
+                        Telefone:
                         <input class="form-control" type="text" name="telefone" placeholder="Telefone com DDD" required value="<?php echo $telefone ?>">
                     </div>
                     <div class="form-group">
+                        Crie uma senha:
                         <input class="form-control" type="password" name="senha" placeholder="Crie um senha" required value="<?php echo $senha ?>">
                     </div>
                     <div class="form-group">
+                        Repita sua senha:
                         <input class="form-control" type="password" name="csenha" placeholder="Confirme sua senha" required value="<?php echo $csenha ?>">
                     </div>
                     <div class="form-group">
+                        Data de nascimento:
                         <input class="form-control" type="date" name="data_nasc" required value="<?php echo $data_nasc ?>">
                     </div>
                     <div class="form-group">
+                        Estado:
                         <select class="form-control" type="select" name="estado" placeholder="Estado" required value="<?php echo $estado ?>">
                                        <option value=EX>Estrangeiro</option>
                                        <option value=AC>Acre</option>

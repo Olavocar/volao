@@ -2,10 +2,10 @@
 session_start();
 include_once("config.php");
 
-$nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
-$telefone = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_INT);
-$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-$mensagem = filter_input(INPUT_POST, 'mensagem', FILTER_SANITIZE_TEXT);
+$nome = filter_input(INPUT_POST, 'nome');
+$telefone = filter_input(INPUT_POST, 'telefone');
+$email = filter_input(INPUT_POST, 'email');
+$mensagem = filter_input(INPUT_POST, 'mensagem');
 
 //echo "Nome: $nome <br>";
 //echo "E-mail: $email <br>";
