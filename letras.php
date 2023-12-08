@@ -53,19 +53,19 @@
                     <div class="a">
                         <table>
                             <td>
-                            <a href="index.html"><b>Início</b></a>
+                            <a href="index.php"><b>Início</b></a>
                             </td>
                             <td>
-                            <a href="letras.html"><b>Letras</b></a>
+                            <a href="letras.php"><b>Letras</b></a>
                             </td>
                             <td>
-                             <a href="blog.html"><b>Blog!</b></a>
+                             <a href="blog.php"><b>Blog!</b></a>
                             </td>
                             <td>
-                                <a href="videos.html"><b>Vídeos</b></a>
+                                <a href="videos.php"><b>Vídeos</b></a>
                             </td>
                             <td>
-                                <a href="novidades.html"><b>Novidades</b></a>
+                                <a href="novidades.php"><b>Novidades</b></a>
                             </td>
                             <td>
                                 <a href="cadastro.php"><b>Cadastro</b></a>
