@@ -81,11 +81,11 @@
                     </td>
                 </table>
                 <br>
-<main id="main"><section id="secao">
-<article id="content">
-<div id="bio"><b>Cadastro:</b></div>
+<main id="main"><section>
+<article>
+<div class="bio"><b>Cadastro:</b></div>
 </article>
-<article id="miolo">
+<article>
 
                 <form action="cadastro.php" method="POST" autocomplete="">
                         <p>É rápido e fácil.</p>
