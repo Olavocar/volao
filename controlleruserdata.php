@@ -149,7 +149,7 @@ if($data_check){
             $_SESSION['email'] = $email;
             $info = "Crie uma nova senha.";
             $_SESSION['info'] = $info;
-            header('location: new-password.php');
+            header('location: nova-senha.php');
             exit();
         }else{
             $errors['otp-error'] = "Código incorreto!";
@@ -172,7 +172,7 @@ if($data_check){
             if($run_query){
                 $info = "Você alterou sua senha com sucesso. Agora você pode logar com sua nova senha.";
                 $_SESSION['info'] = $info;
-                header('Location: password-changed.php');
+                header('Location: altera-senha.php');
             }else{
                 $errors['db-error'] = "Falha ao trocar sua senha!";
             }
