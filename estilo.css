@@ -86,7 +86,8 @@ a{
 }
 
 #bio{
-    width: 100px;
+    width: 200px;
+    margin-left:10px;
 	font-size:20px;
 }
 

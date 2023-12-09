@@ -84,7 +84,7 @@
 <div id="bio"><b>Blog!</b></div>
 <br>
 Vivencias:
-<br>
+<br><br>
 <a href="28-08-2023.php">28/08/2023</a>:
 <br>
 Niterói, 28/08/2023 (2ª feira) “Res” – Olavo Carvalho  
@@ -94,11 +94,7 @@ estou procurando apenas me organizar de acordo com a agenda que o Jacks me passo
 descrever e organizar, coisa que já está pendente faz algum tempo e ainda não tive tempo de 
 
 </article>
-<article id="miolo">
 
-<div>
-    
-</div></article>
 <article id="lado">
    
 
