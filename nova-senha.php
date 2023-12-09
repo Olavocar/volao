@@ -1,4 +1,4 @@
-<?php require_once "controllerUserData.php"; ?>
+<?php require_once "controlleruserdata.php"; ?>
 <?php 
 $email = $_SESSION['email'];
 if($email == false){
@@ -17,7 +17,7 @@ if($email == false){
     <div>
         <div>
             <div class="col-md-4 offset-md-4 form">
-                <form action="nova-senha.php" method="POST" autocomplete="off">
+                <form action="controlleruserdata.php" method="POST" autocomplete="off">
                     <h2 class="text-center">Nova Senha</h2>
                     <?php 
                     if(isset($_SESSION['info'])){
@@ -42,13 +42,13 @@ if($email == false){
                     }
                     ?>
                     <div class="form-group">
-                        <input class="form-control" type="password" name="password" placeholder="Create new password" required>
+                        <input class="form-control" type="password" name="password" placeholder="Crie sua nova senha" required>
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="password" name="cpassword" placeholder="Confirm your password" required>
+                        <input class="form-control" type="password" name="cpassword" placeholder="Confirme sua nova senha" required>
                     </div>
                     <div class="form-group">
-                        <input class="form-control button" type="submit" name="change-password" value="Change">
+                        <input class="form-control button" type="submit" name="change-password" value="Troca">
                     </div>
                 </form>
             </div>

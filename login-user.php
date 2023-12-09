@@ -35,7 +35,7 @@
                         Digite sua senha:
                         <input class="form-control" type="password" name="senha" placeholder="Password" required>
                     </div>
-                    <div class="link forget-pass text-left"><a href="forgot-password.php">Forgot password?</a></div>
+                    <div class="link forget-pass text-left"><a href="esqueci-senha.php">Forgot password?</a></div>
                     <div class="form-group">
                         <input class="form-control button" type="submit" name="login" value="Login">
                     </div>

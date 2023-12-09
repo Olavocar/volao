@@ -156,7 +156,7 @@ if($data_check){
         }
     }
     //if user click change senha button
-    if(isset($_POST['change-senha'])){
+    if(isset($_POST['change-password'])){
         $_SESSION['info'] = "";
         $senha = mysqli_real_escape_string($con, $_POST['senha']);
         $csenha = mysqli_real_escape_string($con, $_POST['csenha']);

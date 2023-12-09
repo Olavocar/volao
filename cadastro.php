@@ -83,8 +83,8 @@
 <main id="main">
 <div class="bio"><b>Cadastro:</b></div>
 <form action="controlleruserdata.php" method="POST" autocomplete="">
-                <h2 class="text-center">Cadastro</h2>
-                    <p class="text-center">É rápido e fácil.</p>
+                <h2 id="bio">Cadastro</h2>
+                    <p id="bio">É rápido e fácil.</p>
                     <?php
                     if(count($errors) == 1){
                         ?>
@@ -110,35 +110,45 @@
                         <?php
                     }
                     ?>
-<div class="bio">
+<table>
+    <td></td>
+    <td>
+<div class="fontes">
                     Nome:
                     <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required value="<?php echo $nome ?>">
                     </div>
-                    <div class="form-group">
+                    <br>
+                    <div class="fontes">
                         Sobrenome:
                         <input class="form-control" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required value="<?php echo $sobrenome ?>">
                     </div>
-                    <div class="form-group">
+                    <br>
+                    <div class="fontes">
                         Email:
-                        <input class="form-control" type="email" name="email" placeholder="Digite seu e-mail" required value="<?php echo $email ?>">
+                        <input class="fontes" type="email" name="email" placeholder="Digite seu e-mail" required value="<?php echo $email ?>">
                     </div>
-                    <div class="form-group">
+                    <br>
+                    <div class="fontes">
                         Telefone:
                         <input class="form-control" type="text" name="telefone" placeholder="Telefone com DDD" required value="<?php echo $telefone ?>">
                     </div>
-                    <div class="form-group">
+                    <br>
+                    <div class="fontes">
                         Crie uma senha:
                         <input class="form-control" type="password" name="senha" placeholder="Crie um senha" required value="<?php echo $senha ?>">
                     </div>
-                    <div class="form-group">
+                    <br>
+                    <div class="fontes">
                         Repita sua senha:
                         <input class="form-control" type="password" name="csenha" placeholder="Confirme sua senha" required value="<?php echo $csenha ?>">
                     </div>
-                    <div class="form-group">
+                    <br>
+                    <div class="fontes">
                         Data de nascimento:
                         <input class="form-control" type="date" name="data_nasc" required value="<?php echo $data_nasc ?>">
                     </div>
-                    <div class="form-group">
+                    <br>
+                    <div class="fontes">
                         Estado:
                         <select class="form-control" type="select" name="estado" placeholder="Estado" required value="<?php echo $estado ?>">
                                        <option value=EX>Estrangeiro</option>
@@ -171,12 +181,16 @@
                                        <option value=TO>Tocantins</option>
                         </select>
                     </div>
+                    <br>
                     <div class="form-group">
                         <input class="form-control button" type="submit" name="signup" value="Enviar">
                     </div>
-                    <div class="link login-link text-center">Já é inscrito? <a href="login-user.php">Entre aqui</a></div>
-                </form>
-            </div>
+                    <br>
+                    <div class="fontes">Já é inscrito? <a href="login-user.php">Entre aqui</a></div>
+                </div>
+                </td>
+                </table>
+            </form>
         </div>
     </div>
 </main>

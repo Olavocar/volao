@@ -81,7 +81,11 @@
                 <br>
 <main id="main"><section id="secao">
 <article id="content">
-<div id="bio"><b>Blog:</b></div>
+<div id="bio"><b>Blog!</b></div>
+<br>
+Vivencias:
+<br>
+<a href="25-12-1981.php">25/12/1981</a>
 </article>
 <article id="miolo">
 
