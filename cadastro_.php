@@ -82,7 +82,7 @@
                 <br>
 <main id="main">
 <div class="bio"><b>Cadastro:</b></div>
-<form action="cadastro.php" method="POST" autocomplete="">
+<form action="controlleruserdata.php" method="POST" autocomplete="">
                 <h2 class="text-center">Cadastro</h2>
                     <p class="text-center">É rápido e fácil.</p>
                     <?php
