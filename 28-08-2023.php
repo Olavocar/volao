@@ -131,11 +131,7 @@ Chegando lá no Pedro Ivo que fica também na Tijuca, da onde eu iria direto par
 gravamos e trabalhamos e conversamos um pouco sobre o projeto. De lá fui direto para a “Evolução”<br>
 onde pude finalizar meu dia bem. Mais um dia SPH! 
 </article>
-<article id="miolo">
 
-<div>
-    
-</div></article>
 <article id="lado">
    
 

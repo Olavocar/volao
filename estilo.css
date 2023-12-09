@@ -87,14 +87,14 @@ a{
 
 #bio{
     width: 200px;
-    margin-left:10px;
+    margin-left:20px;
 	font-size:20px;
 }
 
 #miolo {
     width:300px;
     height:100%;
-    margin-left: -880px;
+    margin-left: -840px;
     color:white;
 	font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
     background-color:black;
