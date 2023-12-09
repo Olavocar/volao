@@ -172,7 +172,7 @@ if($data_check){
             if($run_query){
                 $info = "Você alterou sua senha com sucesso. Agora você pode logar com sua nova senha.";
                 $_SESSION['info'] = $info;
-                header('Location: altera-senha.php');
+                header('Location: senha-alterada.php');
             }else{
                 $errors['db-error'] = "Falha ao trocar sua senha!";
             }
