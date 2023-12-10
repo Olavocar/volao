@@ -71,6 +71,9 @@
                     <a href="https://buy.stripe.com/aEU7uK5Yu9x3dfGdQQ"><b>Cadastro</b></a>
                 </td>
                 <td>
+                <a href="login-user.php"><b>Login</b></a>
+                </td>
+                <td>
                     <a href="contato.php"><b>Contato</b></a>
                 </td>
             </table>

@@ -71,7 +71,7 @@ if($data_check){
             if($update_res){
                 $_SESSION['nome'] = $nome;
                 $_SESSION['email'] = $email;
-                header('location: blog.php');
+                header('location: assinantes.php');
                 exit();
             }else{
                 $errors['otp-error'] = "Falha ao atualizar código!";
