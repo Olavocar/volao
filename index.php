@@ -68,7 +68,7 @@
                     <a href="novidades.php"><b>Novidades</b></a>
                 </td>
                 <td>
-                    <a href="cadastro.php"><b>Cadastro</b></a>
+                    <a href="https://buy.stripe.com/aEU7uK5Yu9x3dfGdQQ"><b>Cadastro</b></a>
                 </td>
                 <td>
                     <a href="contato.php"><b>Contato</b></a>

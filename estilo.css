@@ -108,6 +108,12 @@ a{
     background-color:black;
 }
 
+.fontes{
+    font-family:"Gloucester MT Extra Condensed","Calibri","sans-serif","Arial";
+    font-size:20px;
+    color: white;
+}
+
 #rodape{
     width:1330px;
     height:50px;
