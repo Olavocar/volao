@@ -95,7 +95,7 @@ if($data_check){
                 if($status == 'verified'){
                   $_SESSION['email'] = $email;
                   $_SESSION['senha'] = $senha;
-                    header('location: blog.php');
+                    header('location: assinantes.php');
                 }else{
                     $info = "It's look like you haven't still verify your email - $email";
                     $_SESSION['info'] = $info;
