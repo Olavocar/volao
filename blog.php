@@ -81,20 +81,13 @@
                 <br>
 <main id="main"><section id="secao">
 <article id="content">
-<div id="bio"><b>Blog!</b></div>
-<br>
-Vivencias:
-<br><br>
-<a href="28-08-2023.php">28/08/2023</a>:
-<br>
-Niterói, 28/08/2023 (2ª feira) “Res” – Olavo Carvalho  
-<br><br>
-De manhã trabalhei como de costume sem maiores problemas ou alguma questão específica,<br>
-estou procurando apenas me organizar de acordo com a agenda que o Jacks me passou para<br> 
-descrever e organizar, coisa que já está pendente faz algum tempo e ainda não tive tempo de 
-
+<div id="bio"><b>Blog:</b></div>
 </article>
+<article id="miolo">
 
+<div>
+    
+</div></article>
 <article id="lado">
    
 
