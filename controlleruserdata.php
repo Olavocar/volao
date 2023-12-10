@@ -71,7 +71,7 @@ if($data_check){
             if($update_res){
                 $_SESSION['nome'] = $nome;
                 $_SESSION['email'] = $email;
-                header('location: index.php');
+                header('location: https://buy.stripe.com/aEU7uK5Yu9x3dfGdQQ');
                 exit();
             }else{
                 $errors['otp-error'] = "Falha ao atualizar código!";
@@ -95,7 +95,7 @@ if($data_check){
                 if($status == 'verified'){
                   $_SESSION['email'] = $email;
                   $_SESSION['senha'] = $senha;
-                    header('location: index.php');
+                    header('location: blog.php');
                 }else{
                     $info = "It's look like you haven't still verify your email - $email";
                     $_SESSION['info'] = $info;
