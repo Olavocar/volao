@@ -71,7 +71,7 @@ if($data_check){
             if($update_res){
                 $_SESSION['nome'] = $nome;
                 $_SESSION['email'] = $email;
-                header('location: https://buy.stripe.com/aEU7uK5Yu9x3dfGdQQ');
+                header('location: index.php');
                 exit();
             }else{
                 $errors['otp-error'] = "Falha ao atualizar código!";
